@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(29, 28, 28);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: inter;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+        margin-top: 86px;
+        height: 260px;
+        max-width: 1216px;
+        width: 100%;
+
+        
+        img{
+            width:200px;
+            height: 200px;
+            border-radius: 200px;
+        }
+
+        h1{
+            font-size: 36px;
+            font-weight: 700;
+
+            color: rgb(7, 102, 7);
+        }
+
+    }
+
+    main{
+        width: 1216px;
+
+        p{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: whitesmoke;
+            margin-block: 30px;
+        }
+
+        a{
+            color: aquamarine;
+        }
+
+        .city{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: greenyellow;
+        }
+    }
+
+    section{
+        margin-top: 80px;
+
+        h3{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43.57px;
+            color: rgb(192, 80, 39);
+            background-color: rgb(36, 48, 48);
+        }
+
+        ul{
+            margin-bottom: 30px;
+            background-color: rgb(36, 48, 48);
+        }
+
+        ol{
+            padding-left: 24px;
+            background-color: rgb(36, 48, 48);
+        }
+
+        li{
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 29.05px;
+            color: rgb(209, 165, 172);
+        }
+    }
+
+    footer{
+        margin-top: 30px;
+        height: 39px;
+        width: 100%;
+        max-width: 1216px;
+        text-align: center;
+        background-color: rgb(88, 87, 85);
+
+        h4{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16.94px;
+            padding-top: 10px;
+            color: rgb(243, 114, 82);
+        }
+    }
+}
+
